@@ -7,5 +7,10 @@ public class Main {
 
         System.out.println(jujustsuKaisen.getDescription());
         System.out.println(cardcaptorSakura.getDescription());
+
+        
+        Manga nana = mangaFactory.createManga(TypeManga.SHOJO, "Nana", "Ai Yazawa", "Nana Ōsaki");
+        MainCharacter mainCharacter = new TwoMainCharacter(nana, "Nana Komatsu");
+        System.out.println(mainCharacter.getDescription());
     }
 }

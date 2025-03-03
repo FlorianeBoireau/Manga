@@ -1,3 +1,4 @@
+// Créer des classes concrètes pour chaque type de manga
 public class ShojoManga implements Manga{
 
     private String title;

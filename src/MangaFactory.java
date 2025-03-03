@@ -1,3 +1,5 @@
+// Contient la logique pour créer des objets Manga en fonction du type spécifié.
+
 public class MangaFactory {
     
     public Manga createManga(TypeManga type, String title, String author, String mainCharacter) {

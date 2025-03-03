@@ -1,3 +1,4 @@
+// Classe concrète pour ajouter un deuxième personnage principal
 public class TwoMainCharacter extends MainCharacter {
     
     private String twoMainCharacter;

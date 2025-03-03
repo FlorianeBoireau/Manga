@@ -1,3 +1,4 @@
+// Classe abstraite Decorator
 public abstract class MainCharacter implements Manga {
     
     protected Manga manga;
